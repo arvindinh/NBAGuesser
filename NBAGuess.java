@@ -152,7 +152,7 @@ public class NBAGuess {
             //traverse the tree iteratively, using alphabetical ordering to compare keys
             while(found != true) {
                 String currentName = current.key.toLowerCase();
-                String childName = current.key.toLowerCase();
+                String childName = child.key.toLowerCase();
                 int comp = currentName.compareTo(childName);
                 if (comp < 0) {
                     if (current.left == null) {
