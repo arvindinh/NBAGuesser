@@ -14,7 +14,7 @@ NBAGuesser is a simple java program that scans a dataset of players from the 202
 
 * Compile NBAGuess.java
 * Usage: java NBAGuess players.txt
-```
+
 
 ## Authors
 
